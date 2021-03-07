@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.Service.NotificationDgiService;
+import com.example.demo.service.NotificationDgiService;
 import com.example.demo.bean.NotificationDgi;
 
 @RestController
