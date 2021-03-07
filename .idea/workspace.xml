@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="" />
+    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pLVMLyXMbF2TLnj51yNaNThF4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +57,8 @@
       <workItem from="1614962313413" duration="1608000" />
       <workItem from="1615123244459" duration="58000" />
       <workItem from="1615125151322" duration="300000" />
+      <workItem from="1615145342932" duration="139000" />
+      <workItem from="1615146247848" duration="593000" />
     </task>
     <servers />
   </component>
