@@ -8,7 +8,7 @@ public class Redevable {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
 
     private Long id;
-    private String refRedevable;
+    private String ref;
     private String nom;
     private String prenom;
     @OneToMany(mappedBy = "redevable")
@@ -24,12 +24,12 @@ public class Redevable {
         this.id = id;
     }
 
-    public String getRefRedevable() {
-        return refRedevable;
+    public String getRef() {
+        return ref;
     }
 
-    public void setRefRedevable(String refRedevable) {
-        this.refRedevable = refRedevable;
+    public void setRef(String ref) {
+        this.ref = ref;
     }
 
     public String getNom() {

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="ajout les dependances entre les beans" />
+    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="rename package Service to service">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/NotificationRedevableDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/RedevableDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/NotificationRedevableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/RedevableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ws/NotificationRedevableWs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ws/RedevableWs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pLVMLyXMbF2TLnj51yNaNThF4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,8 +41,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../work-space/gestion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.ws" />
+      <recent name="com.example.demo.service" />
+      <recent name="com.example.demo.dao" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -51,17 +81,9 @@
       <workItem from="1614962313413" duration="1608000" />
       <workItem from="1615123244459" duration="58000" />
       <workItem from="1615125151322" duration="300000" />
-      <workItem from="1615129462566" duration="905000" />
-      <workItem from="1615210518358" duration="6959000" />
+      <workItem from="1615145342932" duration="139000" />
+      <workItem from="1615146247848" duration="593000" />
     </task>
-    <task id="LOCAL-00001" summary="ajout les dependances entre les beans">
-      <created>1615218982261</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615218982261</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,9 +99,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajout les dependances entre les beans" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout les dependances entre les beans" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

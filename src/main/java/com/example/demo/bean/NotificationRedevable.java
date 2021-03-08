@@ -5,8 +5,9 @@ import javax.persistence.*;
 @Entity
 public class NotificationRedevable {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
+
     private Long id;
-    private String refNotificationRedvable;
+    private String ref;
     private double montantEstimation;
     private String typeEstimation;
     private int numero;
@@ -37,12 +38,12 @@ public class NotificationRedevable {
         this.typeEstimation = typeEstimation;
     }
 
-    public String getRefNotificationRedvable() {
-        return refNotificationRedvable;
+    public String getRef() {
+        return ref;
     }
 
-    public void setRefNotificationRedvable(String ref) {
-        this.refNotificationRedvable = ref;
+    public void setRef(String ref) {
+        this.ref = ref;
     }
 
     public String getDateNotification() {
