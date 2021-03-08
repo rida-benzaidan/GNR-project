@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="" />
+    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationDgi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationDgi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/PaiementRedevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/PaiementRedevable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Taxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Taxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/TypeTaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/TypeTaxe.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +59,8 @@
       <workItem from="1614962313413" duration="1608000" />
       <workItem from="1615123244459" duration="58000" />
       <workItem from="1615125151322" duration="300000" />
+      <workItem from="1615129462566" duration="905000" />
+      <workItem from="1615210518358" duration="6583000" />
     </task>
     <servers />
   </component>

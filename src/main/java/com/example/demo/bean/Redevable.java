@@ -1,9 +1,7 @@
-package com.example.gestion.bean;
+package com.example.demo.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Redevable {
@@ -13,6 +11,10 @@ public class Redevable {
     private String refRedevable;
     private String nom;
     private String prenom;
+    @OneToMany(mappedBy = "redevable")
+    private List <NotificationDgi> notificationDgis;
+    @OneToMany(mappedBy = "redevable")
+    private List <PaiementRedevable> paiementRedevables;
 
     public Long getId() {
         return id;

@@ -1,16 +1,22 @@
 package com.example.demo.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Taxe {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id ;
     private String refTaxe;
-    private String refTypeTaxe;
+    @ManyToOne
+    private TypeTaxe typeTaxe;
+    @OneToMany(mappedBy = "taxe")
+    private List<NotificationDgi> notificationDgis;
+    @OneToMany(mappedBy = "taxe")
+    private List<PaiementRedevable> paiementRedevables;
+    @OneToMany(mappedBy = "taxe")
+    private List<NotificationRedevable> notificationRedevables;
+
     private String libelle;
 
     public Long getId() {
@@ -27,14 +33,6 @@ public class Taxe {
 
     public void setRefTaxe(String refTaxe) {
         this.refTaxe = refTaxe;
-    }
-
-    public String getRefTypeTaxe() {
-        return refTypeTaxe;
-    }
-
-    public void setRefTypeTaxe(String refTypeTaxe) {
-        this.refTypeTaxe = refTypeTaxe;
     }
 
     public String getLibelle() {

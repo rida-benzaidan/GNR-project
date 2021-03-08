@@ -1,17 +1,17 @@
 package com.example.demo.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+
 @Entity
 public class NotificationDgi {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	private String refNotifictionDgi;
-	private String refTaxe;
-	private String refRedivable;
+	@ManyToOne
+	private Taxe taxe;
+	@ManyToOne
+	private  Redevable redevable;
 	private String dateNotification;
 
 	public long getId() {
@@ -28,22 +28,6 @@ public class NotificationDgi {
 
 	public void setrefNotifictionDgi(String refNotifictionDgi) {
 		this.refNotifictionDgi = refNotifictionDgi;
-	}
-
-	public String getrefTaxe() {
-		return refTaxe;
-	}
-
-	public void setrefTaxe(String refTaxe) {
-		this.refTaxe=refTaxe;
-	}
-	
-	public String getrefRedivable() {
-		return refRedivable;
-	}
-
-	public void setrefRedivable(String refRedivable) {
-		this.refRedivable=refRedivable;
 	}
 
 	public String getdateNotification() {

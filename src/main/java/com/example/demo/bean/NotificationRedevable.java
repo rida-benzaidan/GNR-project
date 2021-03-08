@@ -1,23 +1,18 @@
-package com.example.gestion.bean;
+package com.example.demo.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class NotificationRedevable {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String refNotificationRedvable;
     private double montantEstimation;
     private String typeEstimation;
     private int numero;
-    private String ref;
-    private String refTypeTaxe;
-    //private String refRedevable;
-    //private String refSujetTaxe;
     private String dateNotification;
-
+    @ManyToOne
+    private Taxe taxe;
     public Long getId() {
         return id;
     }
@@ -42,38 +37,14 @@ public class NotificationRedevable {
         this.typeEstimation = typeEstimation;
     }
 
-    public String getRef() {
-        return ref;
+    public String getRefNotificationRedvable() {
+        return refNotificationRedvable;
     }
 
-    public void setRef(String ref) {
-        this.ref = ref;
+    public void setRefNotificationRedvable(String ref) {
+        this.refNotificationRedvable = ref;
     }
 
-    public String getRefTypeTaxe() {
-        return refTypeTaxe;
-    }
-
-    public void setRefTypeTaxe(String refTypeTaxe) {
-        this.refTypeTaxe = refTypeTaxe;
-    }
-    /*
-    public String getRefRedevable() {
-        return refRedevable;
-    }
-
-    public void setRefRedevable(String refRedevable) {
-        this.refRedevable = refRedevable;
-    }
-
-    public String getRefSujetTaxe() {
-        return refSujetTaxe;
-    }
-
-    public void setRefSujetTaxe(String refSujetTaxe) {
-        this.refSujetTaxe = refSujetTaxe;
-    }
-    */
     public String getDateNotification() {
         return dateNotification;
     }
