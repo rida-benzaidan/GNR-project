@@ -12,7 +12,7 @@ import com.example.demo.service.NotificationDgiService;
 import com.example.demo.bean.NotificationDgi;
 
 @RestController
-@RequestMapping("gestion-notification/Dgi")
+@RequestMapping("gestion-notification/dgi")
 public class NotificationDgiProvided {
 
 	@Autowired

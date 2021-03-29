@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("gestion-notification/Redevable")
+@RequestMapping("gestion-notification/redevable")
 public class RedevableWs {
 
         @GetMapping("/ref/{ref}")

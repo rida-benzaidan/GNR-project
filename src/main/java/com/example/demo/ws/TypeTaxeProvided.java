@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.bean.TypeTaxe;
 
 @RestController
-@RequestMapping("gestion-notification/Dgi")
+@RequestMapping("gestion-notification/typeTaxe")
 public class TypeTaxeProvided {
 	@Autowired
 	private TypeTaxeProvided typetaxeService;
