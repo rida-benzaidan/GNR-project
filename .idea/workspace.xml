@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="rename package Service to service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/NotificationRedevableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/RedevableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/NotificationRedevableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/RedevableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ws/NotificationRedevableWs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ws/RedevableWs.java" afterDir="false" />
+    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="ajoute classes dao sevice et ws">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/NotificationRedevable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +30,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../work-space/gestion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../aa mes tps/projetPFe/rh-v3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -51,17 +48,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -83,7 +69,26 @@
       <workItem from="1615125151322" duration="300000" />
       <workItem from="1615145342932" duration="139000" />
       <workItem from="1615146247848" duration="593000" />
+      <workItem from="1615817061669" duration="336000" />
+      <workItem from="1615823042652" duration="327000" />
+      <workItem from="1615824579909" duration="427000" />
+      <workItem from="1616081112024" duration="83000" />
+      <workItem from="1616081226948" duration="15000" />
+      <workItem from="1616160013091" duration="169000" />
+      <workItem from="1616778087757" duration="5000" />
+      <workItem from="1616865670678" duration="864000" />
+      <workItem from="1617028426610" duration="883000" />
+      <workItem from="1617030403953" duration="539000" />
+      <workItem from="1617031099504" duration="38000" />
     </task>
+    <task id="LOCAL-00001" summary="ajoute classes dao sevice et ws">
+      <created>1615223002962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615223002962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +105,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ajoute classes dao sevice et ws" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajoute classes dao sevice et ws" />
   </component>
 </project>
