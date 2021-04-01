@@ -1,4 +1,4 @@
-package com.example.gestion.config;
+package com.example.demo.config;
 
 import org.springframework.context.annotation.Bean;
 
@@ -29,23 +29,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
 
-
     @Bean
-
     public Docket Api() {
-
         return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any())
-
                 .paths(PathSelectors.any()).build().apiInfo(getApiInfo());
 
     }
 
-
-
     public ApiInfo getApiInfo() {
-
         return new ApiInfoBuilder().title("Gestion de Notification de Redevable (DGI&Commune)").version("2.0").description("Gestion: notifications")
-
                 .license("he").build();
 
     }

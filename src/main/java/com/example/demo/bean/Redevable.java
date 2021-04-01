@@ -14,6 +14,7 @@ public class Redevable {
     @OneToMany(mappedBy = "redevable")
     private List <NotificationDgi> notificationDgis;
     @OneToMany(mappedBy = "redevable")
+
     private List <PaiementTaxe> paiementTaxes;
 
     public Long getId() {
