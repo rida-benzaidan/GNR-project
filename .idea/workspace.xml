@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="modifie quelque chose">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/PaiementRedevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/PaiementTaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Redevable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Taxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/bean/Taxe.java" afterDir="false" />
-    </list>
+    <list default="true" id="9d1abc84-d1e3-43e0-bae4-2d66caf9c1c8" name="Default Changelist" comment="ajoute des modifications sur toutes les classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +93,7 @@
       <workItem from="1617113565243" duration="525000" />
       <workItem from="1617114126685" duration="102000" />
       <workItem from="1617263285746" duration="89000" />
-      <workItem from="1617264968611" duration="2934000" />
+      <workItem from="1617264968611" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="ajoute classes dao sevice et ws">
       <created>1615223002962</created>
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617034142672</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajoute des modifications sur toutes les classes">
+      <created>1617268272714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617268272714</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +152,7 @@
     <MESSAGE value="ajoute classes dao sevice et ws" />
     <MESSAGE value="ajoute des modifications du ws" />
     <MESSAGE value="modifie quelque chose" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifie quelque chose" />
+    <MESSAGE value="ajoute des modifications sur toutes les classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajoute des modifications sur toutes les classes" />
   </component>
 </project>
