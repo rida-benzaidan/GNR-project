@@ -13,7 +13,7 @@ public class Taxe {
     @OneToMany(mappedBy = "taxe")
     private List<NotificationDgi> notificationDgis;
     @OneToMany(mappedBy = "taxe")
-    private List<PaiementRedevable> paiementRedevables;
+    private List<PaiementTaxe> paiementTaxes;
     @OneToMany(mappedBy = "taxe")
     private List<NotificationRedevable> notificationRedevables;
 

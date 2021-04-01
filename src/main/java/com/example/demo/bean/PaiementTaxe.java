@@ -3,9 +3,10 @@ package com.example.demo.bean;
 import javax.persistence.*;
 
 @Entity
-public class PaiementRedevable {
+public class PaiementTaxe {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id ;
+    private String ref;
     @ManyToOne
     private  Redevable redevable;
     @ManyToOne
